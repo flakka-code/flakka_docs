@@ -8,15 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 const config = {
   title: 'Flakka Docs',
   tagline: 'Documentation for the flakka project',
-  url: 'https://flakka-docs.com',
-  baseUrl: '/',
+  url: 'https://flakka-code.github.io',
+  baseUrl: '/flakka_docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'my-org', // Usually your GitHub org/user name.
+  organizationName: 'flakka_code', // Usually your GitHub org/user name.
   projectName: 'flakka_docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/my-org/flakka_docs/tree/main/',
+            'https://github.com/flakka-code/flakka_docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,7 +63,7 @@ const config = {
             label: 'Overview',
           },
           {
-            href: 'https://github.com/my-org/flakka_docs',
+            href: 'https://github.com/flakka-code/flakka_docs',
             position: 'right',
             className: 'navbar-github-icon',
             'aria-label': 'GitHub repository',
@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/my-org/flakka_docs',
+                href: 'https://github.com/flakka-code/flakka_docs',
               },
             ],
           },
